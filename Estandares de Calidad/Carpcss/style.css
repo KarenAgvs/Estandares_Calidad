@@ -71,6 +71,7 @@ h4{
     border: blue 1px solid;
     width: 20%;
     margin: 5%;
+    
    
 
 }
@@ -79,11 +80,17 @@ h4{
 }
 
 .contenedores{
-    display: grid;
-    grid-template-columns: repeat(3 1fr);
-    grid-template-rows: repeat(2); 
+    display:flex;
     border: blueviolet 1px solid;
     margin-top: -5%;
     width: 90%;
     margin: 5%;
+}
+.contenedores2{
+    display:flex;
+    border: blueviolet 1px solid;
+    margin-top: -5%;
+    width: 90%;
+    margin: 5%;
+    margin-top: -9%;
 }
