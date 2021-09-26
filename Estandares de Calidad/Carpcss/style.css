@@ -69,11 +69,8 @@ h4{
 }
 .cont1{
     border: blue 1px solid;
-    width: 20%;
+    width: 90%;
     margin: 5%;
-    
-   
-
 }
 .parrafo2{
     margin-top: -8%;
@@ -81,16 +78,19 @@ h4{
 
 .contenedores{
     display:flex;
-    border: blueviolet 1px solid;
     margin-top: -5%;
     width: 90%;
     margin: 5%;
+    border: blue 1px solid;
 }
 .contenedores2{
     display:flex;
-    border: blueviolet 1px solid;
     margin-top: -5%;
     width: 90%;
     margin: 5%;
     margin-top: -9%;
+    border: blue 1px solid;
+}
+.Parrafo{
+    margin-top: -20%;
 }
