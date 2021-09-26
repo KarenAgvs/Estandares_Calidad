@@ -68,9 +68,9 @@ h4{
     text-align: center;    
 }
 .cont1{
-    border: blue 1px solid;
+    /**border: blue 1px solid;**/
     width: 80%;
-    margin: 5%;
+    margin: 2%;
 }
 .parrafo2{
     margin-top: -8%;
@@ -78,19 +78,48 @@ h4{
 
 .contenedores{
     display:flex;
-    margin-top: -5%;
+    margin-top: -10%;
     width: 90%;
     margin: 5%;
-    border: blue 1px solid;
+    /**border: blue 1px solid;***/
 }
 .contenedores2{
     display:flex;
     margin-top: -5%;
     width: 90%;
     margin: 5%;
-    margin-top: -9%;
-    border: blue 1px solid;
+    margin-top: -3%;
+    /**border: blue 1px solid;**/
 }
 .Parrafo{
     margin-top: -20%;
+}
+ul li{
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: larger;
+}
+.Titulos{
+    margin-bottom: 2%;
+}
+
+.normas{
+    font-size: x-large;
+}
+.iso{
+    margin-top: -15%;
+}
+.Content-form{
+    background: #3a496f;
+    opacity: 0.75;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 700px;
+}
+.inputs-fields{
+    display:flex;
+    flex-direction: column;
+}
+.Comentario{
+    padding-top: -5%;
 }
