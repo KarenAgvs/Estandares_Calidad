@@ -31,9 +31,8 @@
     width: 50%;
     justify-content: center;
     background: transparent;
-    border: tomato 1px solid;
     position: absolute;
-    margin-top: -30%;
+    margin-top: -35%;
    
 }
 .menu a{
@@ -43,6 +42,7 @@
     text-decoration: none;
     color: #fff;
 }
+
 p{
     font-family: 'Alumni Sans', sans-serif;
     font-size: 20px;
@@ -179,11 +179,7 @@ footer{
     font-family:'Alumni Sans', sans-serif ;
   
 }
-.Karen-avatar{
-    font-family:'Alumni Sans', sans-serif ;
-    font-size: larger; 
-    padding-left: 10px;
-}
+
 
 .conclusiones{
     margin-top: -10%;
@@ -214,9 +210,6 @@ footer{
 }
 
 @media (max-width:600px){
-    body{
-        background-color:green;
-    }
     .imagen2 img{
         width: 90%;
     }
@@ -234,10 +227,17 @@ footer{
        
     }
     .links-bib a{
-        padding-left: 2%;
+        padding-left: 5%;
+
     }
     .buscar{
         margin-top: 50%;
+    }
+    .menu{
+        margin-top: -80%;
+    }
+    .links-bib{
+        width: 70%;
     }
 
 }
