@@ -30,6 +30,10 @@
     display:flex;
     width: 50%;
     justify-content: center;
+    background: transparent;
+    border: tomato 1px solid;
+    position: absolute;
+    margin-top: -30%;
    
 }
 .menu a{
@@ -37,7 +41,7 @@
     font-size: 30px;
     padding:5% ;
     text-decoration: none;
-    /**color: #fff;**/
+    color: #fff;
 }
 p{
     font-family: 'Alumni Sans', sans-serif;
@@ -231,6 +235,9 @@ footer{
     }
     .links-bib a{
         padding-left: 2%;
+    }
+    .buscar{
+        margin-top: 50%;
     }
 
 }
