@@ -188,6 +188,20 @@ footer{
     margin-top: -7%;
 }
 
+.links-bib a{
+    font-family:'Alumni Sans', sans-serif ;
+    color:#000000 ;
+    padding-left: 5%;
+    font-size: larger;
+    margin-top: 2%;
+}
+.links-bib{
+    border: #3a496f 1px solid;
+    width: 600px;
+    margin-top: 3%;
+    
+}
+
 @media (max-width:600px){
     body{
         background-color:green;
