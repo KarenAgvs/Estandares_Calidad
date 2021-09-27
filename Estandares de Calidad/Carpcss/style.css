@@ -168,10 +168,11 @@ footer{
     margin-left: 5%;
     height: 6%;
     border:#3a496f 1px solid;
+    margin-bottom: 5%;
 }
 .comment-autor h5 p{
-    padding: 10%;
-    border-bottom: #3a496f 1px solid;
+    font-family:'Alumni Sans', sans-serif ;
+  
 }
 
 
