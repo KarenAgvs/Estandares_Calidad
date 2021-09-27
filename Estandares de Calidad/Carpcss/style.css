@@ -203,6 +203,12 @@ footer{
         flex-direction: column;
         width: 100%;
     }
+    .Content-form{
+        width: 50%;
+        flex-direction:column ;
+       
+    }
+
 }
 
 
