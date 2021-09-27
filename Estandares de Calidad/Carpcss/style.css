@@ -60,13 +60,13 @@ h3{
     font-family: 'Alumni Sans', sans-serif;
     font-size: 35px;
     padding:5%;
-    color: rgb(71, 71, 175);    
+    color: #b3b3e6;
 }
 h4{
     font-family: 'Alumni Sans', sans-serif;
     font-size: 35px;
     padding:5%;
-    color: rgb(71, 71, 175);
+    color: #b3b3e6;
     margin-top: -5%;
     text-align: center;    
 }
@@ -191,15 +191,22 @@ footer{
 .links-bib a{
     font-family:'Alumni Sans', sans-serif ;
     color:#000000 ;
-    padding-left: 5%;
+    padding-left: 8%;
     font-size: larger;
     margin-top: 2%;
 }
 .links-bib{
-    border: #3a496f 1px solid;
     width: 600px;
-    margin-top: 3%;
+    margin-top: -7%;
     
+}
+.buscar{
+    position: absolute;
+    margin-top: 20%;
+    width: 240px;
+    border-radius: 5px;
+    outline: none;
+    border: #FFF 1px solid;
 }
 
 @media (max-width:600px){
@@ -207,7 +214,7 @@ footer{
         background-color:green;
     }
     .imagen2 img{
-        width: 100%;
+        width: 90%;
     }
     .contenedores{
         flex-direction: column;
@@ -221,6 +228,9 @@ footer{
         width: 50%;
         flex-direction:column ;
        
+    }
+    .links-bib a{
+        padding-left: 2%;
     }
 
 }
