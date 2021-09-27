@@ -81,9 +81,9 @@ h4{
 
 .contenedores{
     display:flex;
-    margin-top: -10%;
     width: 90%;
     margin: 5%;
+    margin-top: -5%;
     /**border: blue 1px solid;***/
 }
 .contenedores2{
@@ -153,4 +153,27 @@ footer{
     margin-top: 5%;
     margin: 5%;
 }
+.Titulos{
+    margin-top: 1%;
+}
+.comment-autor img{
+    width: 50px;
+    float: left;
+}
+.comment-autor{
+    padding-left: 5%;
+}
+.comments-container{
+    width: 500px;
+    margin-left: 5%;
+    height: 6%;
+    border:#3a496f 1px solid;
+}
+.comment-autor h5 p{
+    padding: 10%;
+    border-bottom: #3a496f 1px solid;
+}
+
+
+
 
