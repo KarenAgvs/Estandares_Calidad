@@ -166,13 +166,18 @@ footer{
 .comments-container{
     width: 500px;
     margin-left: 5%;
-    height: 6%;
+   
     border:#3a496f 1px solid;
     margin-bottom: 5%;
 }
 .comment-autor h5 p{
     font-family:'Alumni Sans', sans-serif ;
   
+}
+.Karen-avatar{
+    font-family:'Alumni Sans', sans-serif ;
+    font-size: larger; 
+    padding-left: 10px;
 }
 
 
